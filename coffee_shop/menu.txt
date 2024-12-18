@@ -1,0 +1,6 @@
+5
+Americano 3.45 3.65 3.95
+Latte 3.95 4.45 4.95
+Black_Coffee 4.05 4.3 4.55
+Flat_White 3.9 4.15 4.35
+Mocha 4.55 5.55 6.45
