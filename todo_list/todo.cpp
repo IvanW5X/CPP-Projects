@@ -13,7 +13,7 @@ ToDo::ToDo() {this->initDlist();}
 
 void ToDo::displayOptions() const {
     //Print options to terminal
-    std::cout << "\nSelect an Option\n"
+    std::cout << "\n\033[34mSelect an Option\033[0m\n"      // Blue
          << "  1. Add a task\n"
          << "  2. Remove a task\n"
          << "  3. Display tasks\n"
