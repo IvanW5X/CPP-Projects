@@ -6,20 +6,12 @@
  * Author(s): Ivan Wong
  *******************************************************/
 
-
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "hashmap.hpp"
 
-#include "hashmap.h"
-
-int main(int argc, char** argv) {
-
-    HashMap* test;
-
-    test = initialize_map();
-
-    free_map(test);    
-
-    return EXIT_SUCCESS;
+int main(int argc, char **argv)
+{
+    
 }
