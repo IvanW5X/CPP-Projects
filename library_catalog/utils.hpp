@@ -1,16 +1,14 @@
 /*******************************************************
- * File Name: test.cpp
+ * File Name: util.hpp
  * Date: 5/18/2025
- * Description: Header file for book structure and it
- *              specific functions
+ * Description: Utilities header file for project
  * Author(s): Ivan Wong
  *******************************************************/
 
-#pragma once
 
 #include <iostream>
+#include <sstream>
 
-int main(int argc, char** argv)
-{
+#include "book.hpp"
 
-}
+Book* processBook(std::string line);

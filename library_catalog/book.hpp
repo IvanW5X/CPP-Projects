@@ -33,8 +33,10 @@ public:
     const uint getNumBooks();
 
     /* Setters */
-
-
+    void setTitle(const std::string& title);
+    void setAuthor(const std::string& author);
+    void setYear(const uint year);
+    void setNumBooks(const uint numBooks);
     
 
 };
